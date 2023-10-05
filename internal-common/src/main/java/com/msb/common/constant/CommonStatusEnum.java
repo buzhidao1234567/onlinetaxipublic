@@ -5,7 +5,7 @@ import lombok.Getter;
 public enum CommonStatusEnum {
 
     SUCCESS(200,"success","成功"),
-    FAIL(200,"fail","失败"),
+    FAIL(400,"fail","失败"),
     ;
 
     @Getter
